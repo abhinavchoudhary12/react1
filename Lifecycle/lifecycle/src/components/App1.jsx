@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import GetAxios from './GetAxios';
 // import OnHover from './OnHover';
 // import ChangeEffect from "./ChangeEffect";
 // import { Name } from './contextname.js'
-import Web from './Web';
+//import Web from './Web';
+//import Web1 from './Web1';
+
 class  App1 extends Component {
     state = {  } 
     render() { 
@@ -12,10 +15,10 @@ class  App1 extends Component {
         <ChangeEffect/>
 
         </Name.Provider>*/}
-        <Web/>
-       
+        {/* <Web/> */}
+       {/* <Web1/> */}
         
-        
+        <GetAxios/>
         
         </>);
     }
